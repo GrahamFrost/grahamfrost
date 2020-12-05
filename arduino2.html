@@ -1,0 +1,102 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Graham Frost | ARDUINO Project 2</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+   <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+</head>
+<body>
+	<!--start header-->
+	<div class="header">
+	  <div class="header-top">
+		<div class="container">
+			<div class="logo">
+			  <a href="index.html"><img src="images/logo.png" alt=""/></a>
+			</div>
+			 <div class="menu">
+			  <a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /></a>
+				<ul class="nav" id="nav">
+				<li><a href="index.html">Back To Home</a></li> 
+										
+				   <div class="clear"></div>
+			    </ul>
+			</div>				
+		    <div class="clear"></div>
+		    <script type="text/javascript" src="js/responsive-nav.js"></script>
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+		 </div>
+	    </div>
+	</div>
+	<!--end header-->
+	<div class="single">
+	  <div class="container">
+	  	<h3>Arduino - FinalProject Temperature Sensor | Reflection</h3>
+	  	 <div class="extra">
+		 
+			 by <span class="username">Graham</span>
+		 </div>
+		<img src="images/Arduino2.jpg" class="img-responsive" alt=""/>
+		<p>During our final project, one of the tasks we decided for ourselves would be to use an arduino to display the temperature of the CPU within the computer.
+		In order to do this we had to write code and use some from resources we found online and from our teachers. This worked well however in order for the arduino
+		to display using a touch screen we had to encorporate another arduino to do the calculations on and then send them to the ardunio with the touch shield attached as the
+		arduinos can only output through 1 "COM" port. We had to use two, one to send the information to the arduino and one to send the code to the touch screen. In order
+		to work around this I had to solder a piece of wire onto the highly sensitive touch shield. I found that this was a practical use of my skills I had learned,
+		proving after a year from the soldering course that I had retained the information I had learned.</p>
+		
+		  
+		           
+		</div>
+	</div>
+    <div class="footer-bottom">
+	  	<div class="container">
+	  		<ul class="footer-nav">
+	  			<li><a href="index.html">Back To Home</a></li> 
+	  			
+	  		</ul>
+	  		<div class="copy">
+			    <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+		    </div>
+		    <div class="clear"></div>
+	  	</div>
+	  </div>
+	  <!--end contact-->
+      <script type="text/javascript">
+			$(document).ready(function() {
+			
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+		 		};
+				
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+        <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+</body>
+</html>
